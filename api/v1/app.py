@@ -23,7 +23,6 @@ def close_db(error):
 @app.errorhandler(404)
 def not_found(error):
     """ 404 Error
-    ---
     responses:
       404:
         description: a resource was not found
